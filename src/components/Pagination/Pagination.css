@@ -1,0 +1,52 @@
+/* #root
+  > div.App
+  > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1oqqzyl-MuiContainer-root
+  > div
+  > div:nth-child(3)
+  > div
+  > nav
+  > ul
+  > li:nth-child(3)
+  > button {
+  color: white;
+  background-color: darkblue;
+} */
+#root
+  > div.App
+  > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1oqqzyl-MuiContainer-root
+  > div
+  > div:nth-child(3)
+  > div
+  > nav {
+  color: white;
+  background-color: #5339a7;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  bottom: 5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-left: 22rem;
+}
+
+#root
+  > div.App
+  > div.MuiContainer-root.MuiContainer-maxWidthLg.css-1oqqzyl-MuiContainer-root
+  > div
+  > div:nth-child(4)
+  > div
+  > nav {
+  position: relative !important;
+  bottom: 6rem !important;
+  left: 25rem !important;
+  background-color: lightcoral !important;
+  padding: 10px !important;
+  border-radius: 1rem !important;
+  margin-top: 1rem !important;
+  z-index: -100 !important;
+  margin-bottom: 1rem !important;
+  width: fit-content !important;
+}

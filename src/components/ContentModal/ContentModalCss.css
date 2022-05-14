@@ -1,0 +1,44 @@
+.modelContentt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.modelContentText {
+  color: yellow;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.modelContentt .tagline {
+  font-size: 20px;
+  color: lightgray;
+}
+.contentModelDescreption {
+  font-size: 23px;
+  color: #ffffb9;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.imgPortrait {
+  height: 600px;
+  margin-top: 1rem;
+}
+.imgPortraitWide {
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+  .modelContentt {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .imgPortrait {
+    display: none;
+  }
+  .imgPortraitWide {
+    display: block;
+  }
+}
+

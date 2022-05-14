@@ -1,0 +1,20 @@
+.genres {
+  font-size: 25px;
+  top: 3rem;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+}
+.genres .chip {
+  color: white;
+  background-color: rgb(16, 18, 32);
+}
+@media (max-width: 1000px) {
+  .genres {
+    display: none;
+  }
+}

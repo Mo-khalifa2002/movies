@@ -1,0 +1,54 @@
+.container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  background: rgb(19, 63, 113);
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+  background: rgb(29, 69, 138);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* Just some color boxes to make the page longer */
+.box {
+  width: 100%;
+  height: 80vh;
+  margin: 30px 0;
+}
+
+.box--1 {
+  background: yellow;
+}
+
+.box--2 {
+  background: green;
+}
+
+.box--3 {
+  background: pink;
+}
+
+.box--4 {
+  background: grey;
+}
+
+.box--5 {
+  background: purple;
+}

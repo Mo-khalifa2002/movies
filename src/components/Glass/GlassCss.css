@@ -1,0 +1,143 @@
+.spider {
+  max-width: 40%;
+  transform: scale(1.5);
+  margin-left: 9rem;
+}
+.thePage {
+  /* background-color: black; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: content;
+  align-items: center;
+}
+
+.container {
+  /* position: absolute; */
+  /* left: 50%;
+  top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* From https://css.glass */
+  background: rgba(215, 212, 219, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.3px);
+  -webkit-backdrop-filter: blur(3.3px);
+  border: 1px solid rgba(215, 212, 219, 0.3);
+  padding: 1rem;
+  border-radius: 2rem;
+  height: 75%;
+  width: 80%;
+  margin-top: 1rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.rightNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 20px;
+}
+.rightNav > li {
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+.logo {
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: roboto, arial, helvetica;
+}
+.bodyContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 7rem;
+}
+.mainTitle {
+  font-family: sans-serif;
+  color: white;
+}
+.mainTitle span {
+  font-family: "Courier New", Courier, monospace;
+  color: yellow;
+  font-weight: bold;
+}
+.text p {
+  color: white;
+  text-transform: capitalize;
+}
+/* the circle */
+.circle {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  clip-path: circle(30%);
+  z-index: -1;
+  position: absolute;
+  margin-left: 25rem;
+  margin-top: 35rem;
+  overflow: hidden;
+}
+.circle1 {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(157, 73, 20);
+  clip-path: circle(30%);
+  z-index: -1;
+  position: absolute;
+  margin-left: -45rem;
+  margin-top: -30rem;
+}
+/* the circle */
+
+/* media queries */
+@media (min-width: 950px) and (max-width: 1000px) {
+  .circle1 {
+    display: noen;
+  }
+  .image .spider {
+    transform: scale(5) !important;
+    position: relative !important;
+    right: 12rem !important;
+    /* height: 100px; */
+    width: 100px !important;
+    top: 3rem !important;
+  }
+}
+
+@media (max-width: 970px) {
+  .bodyContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .image .spider {
+    position: relative;
+    bottom: 16rem;
+    transform: scale(0.7);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .rightNav {
+    display: none;
+  }
+  .thePage .logo {
+    margin: 0 auto;
+  }
+}
+/* media queries */
